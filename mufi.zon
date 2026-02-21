@@ -1,0 +1,12 @@
+.{
+    .package = .{
+        .name = "mufi-foo",
+        .version = "0.1.0",
+        .authors = .{},
+        .description = "A MufiZ project",
+        .license = "MIT",
+    },
+    .project = .{
+        .entry_point = "src/main.mufi",
+    },
+}

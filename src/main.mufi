@@ -1,0 +1,24 @@
+// Welcome to your new MufiZ project!
+// This is the entry point of your application.
+
+println("Hello from MufiZ! 🚀");
+
+// Example: Simple function
+fun greet(name) {
+    println("Hello, " + name + "!");
+}
+
+greet("World");
+
+// Example: Using the math module
+import math;
+
+fun calculate_circle_area(radius) {
+    return math.PI * radius * radius;
+}
+
+var radius = 5;
+var area = calculate_circle_area(radius);
+println("Circle area with radius " + str(radius) + ": " + str(area));
+
+// Add your code here!
